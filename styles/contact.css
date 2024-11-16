@@ -1,0 +1,71 @@
+@import url('main.css');
+
+.contact {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    background: #007BFF;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+.contact .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .social-links li {
+    margin: 0 10px;
+}
+
+.contact .social-links li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.contact .social-links li a:hover {
+    color: #0056b3;
+}
